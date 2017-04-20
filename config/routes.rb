@@ -3,5 +3,7 @@ Rails.application.routes.draw do
 
   get("/rock", :controller => "games", :action => "play_rock")
   #Cannot have a space b/w the get method and it's arguments
+  get("/scissors", :controller => "games", :action => "play_scissors")
+  get("/paper", :controller => "games", :action => "play_paper")
 
 end
